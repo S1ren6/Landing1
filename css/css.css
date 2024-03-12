@@ -24,19 +24,15 @@ a {
 	text-decoration: none;
 }
 
-.container{
-	width: 1620px;
-	/*ckground-color:red;*/
-margin: 0 auto;
-/*	позиционирование по центру*/
-}
-
 section{
 	margin-top: 50px;
 	/*отступ*/
 	width: 100%;
 	height: 100vh;
 	background-color:gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .header {
@@ -44,7 +40,16 @@ section{
 	height: 100vh;
 	background: url('../img/back1.jpg') no-repeat center;
 	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 /*    фон*/
+}
+
+.container{
+	width: 1620px;
+	height: 940px;
+
 }
 
 header a{
@@ -83,6 +88,7 @@ color: #023047;
 .TopMenu{
 	padding-top: 30px;
 	display: flex;
+	
 }
 
 .logo{
