@@ -25,7 +25,7 @@ a {
 }
 
 section{
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 	/*отступ*/
 	width: 100%;
 	height: 100vh;
@@ -58,6 +58,7 @@ header a{
 
 .menu{
 	display: flex; 
+	justify-content: space-around;
 /*в ряд*/
 }
 
@@ -80,13 +81,19 @@ color: #023047;
 .tel {
 	font-size: 24px;
 	text-decoration: none;
-	margin-left: auto;
+	
 	letter-spacing: 0.1em;
 	color: #023047;
 }
-
+.Tm1{
+	height: 30px;
+display: flex;
+	flex-direction: row;
+}
 .TopMenu{
-	padding-top: 30px;
+	height: 30px;
+	width: 100%;
+	margin-top: 15px;
 	display: flex;
 	justify-content: space-around;
 }
@@ -146,6 +153,89 @@ font-family: "Anton", sans-serif;
 	cursor: pointer;
 	/*меняет курсор*/
 }
+
+.about{
+background: url('../img/about.png') no-repeat center;
+}
+
+.aboutTopMenu{
+height: 180px;
+margin-top: 30px;
+margin-bottom: 50px;
+background:url('../img/aboutTopMenuBeck.png')no-repeat center;
+display: flex;
+flex-direction:column;
+justify-content: space-between;
+}
+.aboutTopMenuH3{
+font-family: "Bellota Text", sans-serif;
+font-weight: 700;
+font-size: 40px;
+text-transform: uppercase;
+text-align: center;
+color: #000;
+margin: 0px;
+display: flex;
+justify-self: start;
+}
+.aboutTopMenuP{
+margin: 0px;
+font-family: "Bellota Text", sans-serif;
+font-weight: 400;
+font-size: 20px;
+text-transform: uppercase;
+color: #000;
+}
+
+.aboutBigMenu{
+	height: 670px;
+}
+.aboutBigMenu1{
+	height: 312px;
+	margin-bottom: 46px;
+	display: flex;
+	justify-content: space-between;
+}
+.aboutBigMenuTop{
+	width: 435px;
+}
+.aboutBigMenuTopTop{
+border-radius: 15px;
+height: 208px;
+margin-bottom: 17px;
+}
+#aboutBigMenu1IDTop1Top{
+	background:url('../img/aboutBigMenu1IDTop1Top.png')no-repeat center;
+}
+#aboutBigMenu1IDTop2Top{
+	background:url('../img/aboutBigMenu1IDTop2Top.png')no-repeat center;
+}
+#aboutBigMenu1IDTop3Top{
+	background:url('../img/aboutBigMenu1IDTop3Top.png')no-repeat center;
+}
+.aboutBigMenuTopEnd{
+background-color: white;
+border-radius: 15px;
+height: 87px;
+}
+
+.aboutBigMenu2{
+	height: 312px;
+	display: flex;
+	justify-content: space-between;
+}
+#aboutBigMenu2IDTop1Top{
+	background:url('../img/aboutBigMenu2IDTop1Top.png')no-repeat center;
+}
+#aboutBigMenu2IDTop2Top{
+	background:url('../img/aboutBigMenu2IDTop2Top.png')no-repeat center;
+}
+#aboutBigMenu2IDTop3Top{
+	background:url('../img/aboutBigMenu2IDTop3Top.png')no-repeat center;
+}
+
+
+
 
 .footer{
 	height: 100px;
