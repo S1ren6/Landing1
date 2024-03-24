@@ -23,7 +23,10 @@ ul, li {
 a {
 	text-decoration: none;
 }
-
+.page{
+	overflow-y: auto;
+	scroll-snap-type: y mandatory;
+}
 section{
 	/*margin-top: 50px;*/
 	/*отступ*/
@@ -33,6 +36,7 @@ section{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+scroll-snap-align: start;
 }
 
 .header {
@@ -44,12 +48,12 @@ section{
 	justify-content: center;
 	align-items: center;
 /*    фон*/
+scroll-snap-align: start;
 }
 
 .container{
 	width: 1620px;
 	height: 940px;
-
 }
 
 header a{
