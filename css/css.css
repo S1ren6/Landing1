@@ -238,13 +238,30 @@ height: 87px;
 	background:url('../img/aboutBigMenu2IDTop3Top.png')no-repeat center;
 }
 
-
-
-
 .footer{
 	height: 100px;
 	width:100%;
 	background-color:blue;
 	margin-top: auto;
 
+}
+
+@media(max-width:1200px){
+.aboutBigMenu{
+	width: 1000px;
+	grid-template-columns: 1fr 280px;
+}
+}
+
+@media(max-width:768px){
+	.aboutBigMenu{
+		width: 480px;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+
+	}
+}
+
+@media(max-width:480px){
+	
 }
