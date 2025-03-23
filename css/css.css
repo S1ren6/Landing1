@@ -46,14 +46,14 @@ scroll-snap-align: start;
 	background-size: cover;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	
 /*    фон*/
 scroll-snap-align: start;
 }
 
 .container{
-	width: 1620px;
-	height: 940px;
+	width: 100%;
+
 }
 
 header a{
@@ -90,16 +90,26 @@ color: #023047;
 	color: #023047;
 }
 .Tm1{
-	height: 30px;
-display: flex;
-	flex-direction: row;
+	padding-left: 25px;
+
 }
 .TopMenu{
-	height: 30px;
+	height: 100px;
 	width: 100%;
-	margin-top: 15px;
-	display: flex;
+	background-color: #023047;
+		display: flex;
+	align-items: center;
 	justify-content: space-around;
+	font-family: "Open Sans", sans-serif;
+	font-size: 28px;
+	color:white;
+
+}
+
+.navItem{
+	color: white;
+	text-decoration: none;
+	margin-right: 50px;
 }
 
 .logo{
@@ -108,8 +118,8 @@ display: flex;
 
 .mid{
 	text-transform: uppercase;
-	margin-top: 140px;
-	margin-left: 0;
+	margin: 157px 1186px 0px 162px;
+	
 }
 
 .mid h1{
@@ -130,14 +140,14 @@ color: #023047;
 }
 
 .mid span{
-	color: white;
+	color: #A9BFCA;
 }
 
 .byNow{
 	border-radius: 50px;
 width: 305px;
 height: 95px;
-background: #023047;
+background: #FFB703;
 border: none;
 font-weight: 400;
 /*жирность*/
@@ -241,7 +251,7 @@ height: 87px;
 .footer{
 	height: 100px;
 	width:100%;
-	background-color:blue;
+	background-color:#E8EDF1;
 	margin-top: auto;
 
 }
