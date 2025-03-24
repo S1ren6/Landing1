@@ -105,20 +105,43 @@ color: #023047;
 	color:white;
 
 }
-
+.nav{
+	margin-right: auto;
+}
+.login{
+	margin-right: 60px;
+}
 .navItem{
 	color: white;
 	text-decoration: none;
 	margin-right: 50px;
+	font-weight: 450;
+	transition: color 0.3s linear;
 }
-
+.navItem:hover {
+color: #8ECAE6;
+}
+.cart{
+	margin-right: 60px;
+}
+.login{
+	font-weight: 450;
+}
+.loginA{
+	transition: color 0.3s linear;
+}
+.loginA:hover{
+	color:#8ECAE6;
+}
 .logo{
-	margin-right: 69px;
+	margin-right: 60px;
 }
 
 .mid{
 	text-transform: uppercase;
 	margin: 157px 1186px 0px 162px;
+	width: 572px;
+	height: 612px;
 	
 }
 
